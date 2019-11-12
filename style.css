@@ -1,0 +1,45 @@
+p{
+    color:black;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+body{
+    background-color:orange;    
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+header{
+    background-color: black;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+ul {
+    list-style: none;
+}
+.special:hover{
+color:white;
+
+}
+.animated{
+    color:orange;
+    background-color: black;
+    transition: all 4s;
+}
+.animated:hover{
+    color: black;
+    background-color: orange;
+}
+
+.box{
+
+background-color:black;
+height: 50px;
+margin: 10px;
+width: 200px;
+padding: 20px;
+}
+table td{
+    font-family: fantasy;
+}
